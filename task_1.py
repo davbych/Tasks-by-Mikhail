@@ -1,2 +1,8 @@
-meters = int(input("Distance in meters: "))
-print(f"Distance in centimeters: {meters*100}")
+#include <iostream>
+
+int main() {
+    int meters;
+    std::cin >> meters;
+    std::cout << "Distance in centimeters: " << meters * 100;
+    return 0;
+}

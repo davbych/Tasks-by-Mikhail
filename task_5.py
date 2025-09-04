@@ -1,0 +1,1 @@
+print(f"Thats the number you entered {int(input())}")

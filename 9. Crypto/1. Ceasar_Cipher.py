@@ -22,8 +22,8 @@ def caesar_cipher(text, shift, decrypt=False):
 
 
 def main():
-    # print("Шифр Цезаря (английский алфавит)")
-    print("Шифр Цезаря (русский алфавит)")
+    print("Шифр Цезаря (английский алфавит)")
+    # print("Шифр Цезаря (русский алфавит)")
     while True:
         print("\n1. Зашифровать")
         print("2. Расшифровать")
@@ -47,4 +47,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
